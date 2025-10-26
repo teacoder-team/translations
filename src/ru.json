@@ -2,7 +2,28 @@
 	"auth": {
 		"login": {
 			"title": "Войти в аккаунт",
-			"description": "Для входа на сайт используйте ваш email и пароль, которые были указаны при регистрации на сайте"
+			"description": "Для входа на сайт используйте ваш email и пароль, которые были указаны при регистрации на сайте",
+			"fields": {
+				"email": {
+					"label": "Почта",
+					"placeholder": "tony@starkindustries.com"
+				},
+				"password": {
+					"label": "Пароль",
+					"placeholder": "******",
+					"forgot_password": "Забыли пароль?"
+				},
+				"captcha": {
+					"message": "Пройдите капчу!"
+				}
+			},
+			"buttons": {
+				"submit": "Продолжить"
+			},
+			"footer": {
+				"no_account": "Еще нет аккаунта?",
+				"register_link": "Регистрация"
+			}
 		}
 	}
 }
