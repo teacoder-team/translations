@@ -1,8 +1,40 @@
 {
 	"auth": {
+		"register": {
+			"header": {
+				"title": "Создать аккаунт",
+				"description": "Для регистрации достаточно ввести своё имя, email и придумать пароль"
+			},
+			"fields": {
+				"name": {
+					"label": "Имя",
+					"placeholder": "Tony Stark"
+				},
+				"email": {
+					"label": "Почта",
+					"placeholder": "tony@starkindustries.com"
+				},
+				"password": {
+					"label": "Пароль",
+					"placeholder": "******"
+				},
+				"captcha": {
+					"message": "Пройдите капчу!"
+				}
+			},
+			"buttons": {
+				"submit": "Продолжить"
+			},
+			"footer": {
+				"already_account": "Уже есть аккаунт?",
+				"login_link": "Войти"
+			}
+		},
 		"login": {
-			"title": "Войти в аккаунт",
-			"description": "Для входа на сайт используйте ваш email и пароль, которые были указаны при регистрации на сайте",
+			"header": {
+				"title": "Войти в аккаунт",
+				"description": "Для входа на сайт используйте ваш email и пароль, которые были указаны при регистрации на сайте"
+			},
 			"fields": {
 				"email": {
 					"label": "Почта",
