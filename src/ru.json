@@ -56,6 +56,55 @@
 				"no_account": "Еще нет аккаунта?",
 				"register_link": "Регистрация"
 			}
+		},
+		"reset_password": {
+			"header": {
+				"title": "Сброс пароля",
+				"description": "Введите вашу почту, чтобы получить ссылку для сброса пароля"
+			},
+			"fields": {
+				"email": {
+					"label": "Почта",
+					"placeholder": "email@teacoder.ru"
+				},
+				"captcha": {
+					"message": "Пройдите капчу!"
+				}
+			},
+			"buttons": {
+				"submit": "Продолжить"
+			},
+			"footer": {
+				"already_account": "Уже есть аккаунт?",
+				"login_link": "Войти"
+			},
+			"toasts": {
+				"success": "Письмо с инструкциями отправлено на вашу почту",
+				"captcha_warning": "Пройдите капчу!",
+				"error": "Ошибка при сбросе пароля"
+			}
+		},
+		"new_password": {
+			"header": {
+				"title": "Новый пароль",
+				"description": "Установите новый пароль для вашего аккаунта"
+			},
+			"fields": {
+				"password": {
+					"label": "Пароль",
+					"placeholder": "******"
+				}
+			},
+			"buttons": {
+				"submit": "Продолжить"
+			},
+			"footer": {
+				"already_account": "Уже есть аккаунт?",
+				"login_link": "Войти"
+			},
+			"toasts": {
+				"error": "Ошибка при регистрации"
+			}
 		}
 	}
 }
