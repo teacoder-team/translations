@@ -1,0 +1,8 @@
+{
+	"auth": {
+		"login": {
+			"title": "Sign in to your account",
+			"description": "Enter the email and password you used when signing up to access your account"
+		}
+	}
+}
